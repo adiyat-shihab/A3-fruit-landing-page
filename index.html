@@ -15,7 +15,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap"
       rel="stylesheet"
     />
   </head>
@@ -213,7 +213,7 @@
           </div>
         </div>
         <div
-          class="lg:flex justify-between items-center shadow-xl lg:mx-[7.625rem] lg:-mt-[8rem] lg:max-h-64 lg:visible hidden"
+          class="lg:flex justify-between items-center shadow-xl lg:mx-[7.625rem] lg:-mt-[8rem] lg:max-h-64 lg:visible hidden lg:mb-[8.75rem]"
         >
           <div
             class="card rounded-none border-none max-h-64 lg:w-96 bg-base-100"
@@ -254,7 +254,7 @@
               <img
                 src="./images/fruit6.png"
                 alt="Shoes"
-                class="rounded-xl h-[6.60rem] w-28"
+                class="rounded-xl h-[6.60rem] lg:[] w-28"
               />
             </figure>
             <div class="card-body items-center text-center">
@@ -264,5 +264,48 @@
         </div>
       </section>
     </header>
+    <main class="xl:pt-10 xl:px-[10rem] lg:pt-7 lg:px-20">
+      <section class="lg:flex lg:justify-between items-center lg:mb-12">
+        <div>
+          <h1 class="font-black text-5xl lg:mb-6">Deal of the day</h1>
+          <p class="text-[rgba(18, 18, 18, 0.60)]">
+            Contrary to popular belief, is not simply random text. It has roots
+            in a piece of classical <br />
+            Latin literature from 45 BC, making it over 2000 years old.
+          </p>
+        </div>
+        <div>
+          <div class="grid grid-flow-col gap-5 text-center auto-cols-max">
+            <div class="flex flex-col">
+              <span class="countdown font-mono text-5xl font-extrabold">
+                <span style="--value: 29"></span>
+              </span>
+              days
+            </div>
+            <img src="./images/Frame.svg" alt="" class="mt-3" />
+            <div class="flex flex-col">
+              <span class="countdown font-mono text-5xl font-extrabold">
+                <span style="--value: 15"></span>
+              </span>
+              hours
+            </div>
+            <img src="./images/Frame.svg" alt="" class="mt-3" />
+            <div class="flex flex-col">
+              <span class="countdown font-mono text-5xl font-extrabold">
+                <span style="--value: 25"></span>
+              </span>
+              min
+            </div>
+            <img src="./images/Frame.svg" alt="" class="mt-3" />
+            <div class="flex flex-col">
+              <span class="countdown font-mono text-5xl font-extrabold">
+                <span style="--value: 08"></span>
+              </span>
+              sec
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
