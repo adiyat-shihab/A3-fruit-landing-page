@@ -22,29 +22,31 @@
   <body style="font-family: 'Lato', sans-serif">
     <header class="xl:pt-10 xl:px-[10rem] lg:pt-7 lg:px-20">
       <nav
-        class="bg-[#F85559] md:flex justify-between items-center xl:pl-[3.125rem] xl:pr-[3.125rem] xl:py-[1rem] rounded-[600px] md:visible hidden"
+        class="bg-[#F85559] md:flex justify-between items-center xl:pl-[3.125rem] xl:pr-[3.125rem] xl:py-[1rem] md:h-[4rem] rounded-[600px] md:mb-16 md:px-2 hidden md:mt-6 md:mx-4 lg:mx-auto lg:mt-auto"
       >
-        <ul
-          class="md:flex gap-6 text-white font-light xl:text-lg hidden md:visible"
-        >
+        <ul class="md:flex gap-6 text-white font-light xl:text-lg md:text-xs">
           <li>Home</li>
           <li>About Us</li>
           <li>Shop</li>
           <li>All Fruits</li>
         </ul>
-        <div
-          class="md:flex justify-center items-center gap-3 md:visible hidden"
-        >
-          <img src="./images/logo.png" alt="" class="w-[3.75rem] h-14" />
-          <h1 class="text-white font-bold text-[2.5rem]">Fruit Brust</h1>
+        <div class="md:flex justify-center items-center gap-3">
+          <img
+            src="./images/logo.png"
+            alt=""
+            class="w-[3.75rem] h-14 md:w-8 md:h-8"
+          />
+          <h1 class="text-white font-bold text-[2.5rem] md:text-xs">
+            Fruit Brust
+          </h1>
         </div>
 
         <!-- for all devices exclude mobile phone -->
-        <div class="relative invisible md:visible">
+        <div class="relative">
           <input
             type="text"
             placeholder="Search here"
-            class="input xl:pl-7 max-w-xs rounded-[50px] h-[2.8rem] w-[25rem]"
+            class="input xl:pl-7 max-w-xs rounded-[50px] lg:h-[2.8rem] lg:w-[25rem] md:h-[2.5rem] w-72"
           />
           <a href=""
             ><img
@@ -52,7 +54,7 @@
               height="24"
               src="./images/icons8-search.svg"
               alt="search--v1"
-              class="absolute top-[0.70rem] left-[17.5rem]"
+              class="absolute top-[0.70rem] left-[17.5rem] md:top-[0.5rem] md:left-[15.5rem]"
           /></a>
         </div>
       </nav>
@@ -162,7 +164,7 @@
             <div class="absolute inset-0">
               <div class="lg:mt-24">
                 <h1
-                  class="text-center font-extrabold lg:text-7xl text-2xl text-white lg:mt-6 mt-7"
+                  class="text-center font-extrabold lg:text-7xl text-2xl text-white lg:mt-6 md:mt-[4.75rem]"
                 >
                   Exotic tastes at your <br />
                   doorstep
